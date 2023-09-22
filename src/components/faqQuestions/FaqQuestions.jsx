@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-export const FaqQuestions = ({FaqQuestions}) => {
-  const [active, setActive] = useState(null)
+export const FaqQuestions = ({FaqQuestions, active, setActive}) => {
   const { id,question, answer} = FaqQuestions
 
   return (
