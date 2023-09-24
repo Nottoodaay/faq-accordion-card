@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 
 import { FaqBox } from "./components/faqBox/FaqBox";
 

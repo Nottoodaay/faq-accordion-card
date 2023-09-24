@@ -1,10 +1,12 @@
 import React from 'react'
 
+import './faqQuestions.styles.scss'
+
 export const FaqQuestions = ({FaqQuestions, active, setActive}) => {
   const { id,question, answer} = FaqQuestions
 
   return (
-    <div onClick={()=>{
+    <div className='faq-item' onClick={()=>{
       if(active === id){
         setActive(null)
       }else{
